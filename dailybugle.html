@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daily Bugle | O Jornal Favorito de Nova York</title>
+    <style>
+        body { font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; background: #f4f4f4; margin: 0; color: #333; }
+    
+        header { background: #c00; padding: 40px 20px; text-align: center; border-bottom: 5px solid #000; position: relative; }
+        .logo-container { max-width: 700px; margin: 0 auto; }
+        .logo-container img { width: 100%; height: auto;}
+        
+        /* Barra de pesquisa */
+        .search-container { position: absolute; top: 20px; right: 20px; }
+        .search-container input { padding: 8px; border: none; border-radius: 4px; width: 150px; }
+
+        .container { width: 90%; max-width: 1100px; margin: 20px auto; background: white; padding: 20px; box-shadow: 0 2px 5px rgba(0,0,0,0.1); }
+
+        .destaque { display: flex; gap: 30px; border-bottom: 2px solid #eee; padding-bottom: 20px; }
+        .col-img { flex: 1; }
+        .col-img img { width: 100%; border-radius: 4px; border: 1px solid #ccc; }
+        .col-text { flex: 1.5; }
+        
+        h2 { color: #c00; margin-top: 0; font-size: 2.5em; }
+        .meta { color: #777; font-size: 0.9em; margin-bottom: 15px; text-transform: uppercase; }
+        
+        .secundarias { margin-top: 30px; display: grid; grid-template-columns: 1fr 1fr; gap: 20px; }
+        .news-item { border-left: 4px solid #c00; padding: 15px; background: #f9f9f9; }
+        
+        footer { text-align: center; padding: 20px; margin-top: 40px; background: #c00; color: white; }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="search-container">
+            <input type="text" placeholder="Pesquisar...">
+        </div>
+        <div class="logo-container">
+            <img src="Logo.png" alt="Daily Bugle Logo">
+        </div>
+    </header>
+    
+    <div class="container">
+        <div class="destaque">
+            <div class="col-img">
+                <img src="Noticia.png" alt="Homem-Aranha">
+                <p>Foto tirada por Peter Parker.</p>
+            </div>
+            <div class="col-text">
+                <h2>BASTA!!!</h2>
+                <p class="meta">Por: Redação Daily Bugle | 17 de Agosto de 2026</p>
+                <p style="font-size: 1.2em; font-weight: bold;">Cidadãos pedem a prisão do escalador de paredes!</p>
+                <p>A cidade de Nova York está em alerta máximo. Após a onda de crimes que assola nossas ruas, a população exige que as autoridades tomem uma atitude contra o vigilante mascarado conhecido como Homem-Aranha.</p>
+                <p>Novas pistas sugerem que o herói pode estar ligado aos recentes ataques do Duende Verde. O Daily Bugle continuará acompanhando este caso de perto.</p>
+            </div>
+        </div>
+        
+        <div class="secundarias">
+            <div class="news-item">
+                <h3>New Clues Foreshadow SPIDEY, GOBLIN ATTACKS</h3>
+                <p>Página 3: Investigação profunda sobre os novos indícios de ataques na cidade.</p>
+            </div>
+            <div class="news-item">
+                <h3>Police: New Leads In Solving SPIDER-MAN CRIME SPREE</h3>
+                <p>Página 8: Autoridades revelam novas pistas para capturar o vigilante.</p>
+            </div>
+        </div>
+    </div>
+    
+    <footer>
+        <p>&copy; 2026 Daily Bugle - O jornal favorito de Nova York desde 1932</p>
+    </footer>
+</body>
+</html>
