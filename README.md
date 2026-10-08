@@ -1,0 +1,1 @@
+So this is a Mini Project that i made just for fun, i made the daily bugle from Spider-Man like if it was a real website, i know that already exists but i wanted to do my version of it and i think that i did a great job.
